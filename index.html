@@ -4,15 +4,16 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Profile</title>
+    <link rel="stylesheet" href="style.css">
   </head>
 
-  <body style="background-color: black; color: white">
-    <h1>Deni S</h1>
-    <p>
+  <body style="display: flex;">
+    <h1 id="text1" class="judul judul-besar" style="color: rgb(118, 250, 29);">Deni S</h1>
+    <p id="text2" class="judul">
       Saya seorang siswa MAN 3 Tulungagung yang sedang belajar Rekayasa
       Perangkat Lunak (RPL)
     </p>
-    <img src="profile.jpeg" alt="photo profile" height="150px" >
+    <img src="profile.jpeg" alt="photo profile" height="150px" />
     <section>
       <h2>Hobi</h2>
       <ul>
@@ -26,5 +27,86 @@
       <a href="">Instagram</a>
       <a href="">Tiktok</a>
     </section>
+
+    <!-- Form Kontak -->
+    <section>
+      <form>
+        <div>
+          <label>Nama:</label>
+          <input type="text" placeholder="Masukkan nama anda!" />
+        </div>
+        <div>
+          <label>Pesan</label>
+          <input type="text" placeholder="Masukkan pesan anda!" />
+        </div>
+
+        <button type="submit">Kirim Pesan</button>
+      </form>
+    </section>
+
+    <!-- Jadwal Pelajaran -->
+    <table border>
+      <thead>
+        <tr>
+          <th>Hari</th>
+          <th>Mata Pelajaran</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="3">Senin</td>
+          <td>Matematika</td>
+        </tr>
+        <tr>
+          <td>Bahasa Inggris</td>
+        </tr>
+        <tr>
+          <td>Bahasa Indonesia</td>
+        </tr>
+        <tr>
+          <td rowspan="2">Selasa</td>
+          <td>Matematika</td>
+        </tr>
+        <tr>
+          <td>Bahasa Inggris</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Rabu</td>
+          <td>Bahasa Jawa</td>
+        </tr>
+
+        <tr>
+          <td>Bahasa Indonesia</td>
+        </tr>
+        <tr>
+          <td>Bahasa Indonesia</td>
+        </tr>
+        <tr>
+          <td rowspan="3">Kamis</td>
+          <td>Bahasa Jawa</td>
+        </tr>
+
+        <tr>
+          <td>Bahasa Indonesia</td>
+        </tr>
+        <tr>
+          <td>Bahasa Indonesia</td>
+        </tr>
+        <tr>
+          <td rowspan="4">Jumat</td>
+          <td>Bahasa Jawa</td>
+        </tr>
+
+        <tr>
+          <td>Bahasa Indonesia</td>
+        </tr>
+        <tr>
+          <td>Bahasa Indonesia</td>
+        </tr>
+        <tr>
+          <td>Bahasa Indonesia</td>
+        </tr>
+      </tbody>
+    </table>
   </body>
 </html>
