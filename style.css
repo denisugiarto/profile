@@ -135,7 +135,6 @@ body {
   box-shadow: 0 10px 20px rgba(37, 99, 235, 0.15);
 }
 
-/*
 .form-card form {
   display: grid;
   gap: 16px;
@@ -232,4 +231,4 @@ tr:nth-child(even) td {
   .content-grid {
     grid-template-columns: 1fr;
   }
-} */
+}
